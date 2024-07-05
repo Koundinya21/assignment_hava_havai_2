@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; Align items vertically centered */
+}
+
+.dashboard {
+  flex: 1;
+  background-color: #f4f4f4; /* Example background color */
+  box-shadow: 0px 1px 4px 0px #00000026;
+}
+
+.right-content {
+  flex: 5;
+  padding: 10px;
+}
+.airport {
+  width: 200px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.65px;
+  text-align: left;
+  color: #222222;
+}
+.right-content-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.button {
+  width: Hug (96px) px;
+  height: Fixed (32px) px;
+  top: 90px;
+  left: 1716px;
+  padding: 6px 17px 7px 17px;
+  gap: 8px;
+  border-radius: 50px;
+  opacity: 0px;
+  background: #000000e5;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: center;
+  color: #ffffff;
+}

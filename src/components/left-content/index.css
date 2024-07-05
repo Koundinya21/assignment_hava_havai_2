@@ -1,0 +1,71 @@
+.left-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%; /* Adjust width as necessary */
+  margin-top: 0px;
+}
+
+.link {
+  text-decoration: none;
+}
+.home-dashboard-item,
+.service-airport-videos,
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjust width as necessary */
+  padding: 7px 12px;
+  gap: 10px;
+  opacity: 1; /* Ensure opacity is set correctly */
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.icon {
+  color: #464646;
+}
+
+.discription {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.services-item,
+.other-para,
+.list-1 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 17.6px;
+  text-align: left;
+  padding: 7px 12px;
+  gap: 10px;
+  opacity: 1; /* Ensure opacity is set correctly */
+}
+
+.services-item {
+  font-weight: 600;
+  color: #222222;
+}
+
+.other-para {
+  font-weight: 600;
+}
+
+.list-1 {
+  font-weight: 400;
+}
